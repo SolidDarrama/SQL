@@ -8,4 +8,4 @@ CREATE TABLE `web_members` (
 `lastname` varchar(65) NOT NULL default '',
 `email` varchar(65) NOT NULL default '',
 PRIMARY KEY (`id`)
-) TYPE=MyISAM AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM AUTO_INCREMENT=1 ;
