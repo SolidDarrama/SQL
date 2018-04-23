@@ -1,0 +1,11 @@
+//Create table by runing SQL query
+
+//Original Source: http://www.phpeasystep.com/mysqlview.php?id=2
+
+CREATE TABLE `web_members` (
+`id` int(4) NOT NULL auto_increment,
+`name` varchar(65) NOT NULL default '',
+`lastname` varchar(65) NOT NULL default '',
+`email` varchar(65) NOT NULL default '',
+PRIMARY KEY (`id`)
+) TYPE=MyISAM AUTO_INCREMENT=1 ;
